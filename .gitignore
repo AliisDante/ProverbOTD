@@ -1,0 +1,51 @@
+# Gradle files
+.gradle/
+build/
+.kotlin/
+/build
+
+# Local config
+local.properties
+
+# IntelliJ
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+*.iml
+
+# OS Files
+.DS_Store
+
+# Android Studio generated files and folders
+/captures
+.externalNativeBuild
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# Other Local Config
+.kilo/
+
+# Do not upload restricted ip content
+/restricted_ip/
+
+# Log files
+*.log
+
+# Keystore files
+*.jks
+*.keystore
+
+# Google Service configuration
+google-services.json
+
+# Android Profiling
+*.hprof

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Bible: cover with cut-out spine and cross, all inside the 72dp safe zone -->
+    <path
+        android:fillColor="#FF3E2723"
+        android:fillType="evenOdd"
+        android:pathData="M42.1,31.9 H65.9 A3.4,3.4 0 0 1 69.3,35.3 V72.7 A3.4,3.4 0 0 1 65.9,76.1 H42.1 A3.4,3.4 0 0 1 38.7,72.7 V35.3 A3.4,3.4 0 0 1 42.1,31.9 Z M40.83,33.6 H42.53 V74.4 H40.83 Z M51.45,38.7 H56.55 V47.2 H61.65 V52.3 H56.55 V69.3 H51.45 V52.3 H46.35 V47.2 H51.45 Z" />
+</vector>
