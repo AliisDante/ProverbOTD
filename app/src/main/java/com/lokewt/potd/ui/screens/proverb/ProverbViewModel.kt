@@ -5,17 +5,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.lokewt.potd.data.local.Verse
-import com.lokewt.potd.data.local.VerseDao
 import com.lokewt.potd.data.local.VerseDatabase
 import com.lokewt.potd.data.repository.VerseRepository
 import kotlinx.coroutines.launch
-import android.util.Log
 import androidx.lifecycle.application
-import java.lang.Math.floorDiv
-import kotlin.random.Random
 import com.lokewt.potd.DailyProverb
 
 class ProverbViewModel(application: Application) : AndroidViewModel(application) {

@@ -11,7 +11,6 @@ import android.content.pm.PackageManager
 import androidx.core.app.ActivityCompat
 import androidx.core.app.NotificationCompat
 import androidx.core.app.NotificationManagerCompat
-import androidx.lifecycle.application
 import com.lokewt.potd.data.local.Verse
 
 class DailyProverb(val context: Context) {

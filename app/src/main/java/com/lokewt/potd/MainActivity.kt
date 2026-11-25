@@ -11,17 +11,13 @@ import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarDefaults
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
-import androidx.compose.material3.SnackbarHost
-import androidx.compose.material3.SnackbarHostState
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateListOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.vector.ImageVector
-import androidx.compose.ui.text.font.FontVariation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation3.runtime.NavEntry
 import androidx.navigation3.ui.NavDisplay
@@ -30,7 +26,6 @@ import com.lokewt.potd.ui.screens.settings.SettingsScreen
 import com.lokewt.potd.ui.theme.ProverbOTDTheme
 import com.lokewt.potd.icons.settings
 import com.lokewt.potd.icons.home
-import kotlinx.coroutines.launch
 
 enum class Destination(
     val route: String,
