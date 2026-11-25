@@ -24,6 +24,7 @@ render.experimental.xml
 .DS_Store
 
 # Android Studio generated files and folders
+/app/release/
 /captures
 .externalNativeBuild
 .cxx/
